@@ -1,0 +1,5 @@
+print('='*6,'DESAFIO 15','='*6)
+km = float(input('Quantos KMs percorreu? '))
+dias = int(input('Por quantos dias utilizou? '))
+valor = (km * 0.15) + (dias * 60)
+print(f'O valor total para {km}km e {dias} dias é de: R$ {valor:.2f}!')
