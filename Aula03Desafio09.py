@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 print('='*6,'DESAFIO 09','='*6)
 n = int(input('Digite um número inteiro: '))
 print(f'A tabuada do número {n} é:')
@@ -11,3 +12,18 @@ print(f'{n} X {7:2} = {n * 7:2}')
 print(f'{n} X {8:2} = {n * 8:2}')
 print(f'{n} X {9:2} = {n * 9:2}')
 print(f'{n} X {10:2} = {n * 10:2}')
+=======
+print('='*6,'DESAFIO 09','='*6)
+n = int(input('Digite um número inteiro: '))
+print(f'A tabuada do número {n} é:')
+print(f'{n} X 1 = {n * 1}')
+print(f'{n} X 2 = {n * 2}')
+print(f'{n} X 3 = {n * 3}')
+print(f'{n} X 4 = {n * 4}')
+print(f'{n} X 5 = {n * 5}')
+print(f'{n} X 6 = {n * 6}')
+print(f'{n} X 7 = {n * 7}')
+print(f'{n} X 8 = {n * 8}')
+print(f'{n} X 9 = {n * 9}')
+print(f'{n} X 10 = {n * 10}')
+>>>>>>> 2dfc387dbcc969dd03327bb000b2dc9271d6d76c
