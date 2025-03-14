@@ -25,7 +25,16 @@ else:
 
 print(f'O maior número digitado é {maior} e o menor {menor}.')'''
 
-print('='*10,'DESAFIO 33','='*10)
+cores = {'limpa':'\033[m',
+         'titulo':'\033[1;31;47m',
+         'verde':'\033[1;32m',
+         'vermelho':'\033[1;31m',
+         'amarelo':'\033[1;33m',
+         'azul':'\033[1;34m',
+         'magenta':'\033[1;35m',
+         'ciano':'\033[1;36m'}
+
+print(f'{cores['titulo']}', '=' * 6, 'DESAFIO 33', '=' * 6, f'{cores['limpa']}')
 
 n1 = int(input('Digite um número: '))
 n2 = int(input('Digite outro número: '))
@@ -44,4 +53,4 @@ if n2 > n1 and n2 > n3:
 elif n3 > n1 and n3 > n2:
     maior = n3
 
-print(f'O maior número digitado é {maior} e o menor {menor}.')
+print(f'O {cores['azul']}maior{cores['limpa']} número digitado é {cores['azul']}{maior}{cores['limpa']} e o {cores['amarelo']}menor{cores['limpa']} é {cores['amarelo']}{menor}{cores['limpa']}.')
