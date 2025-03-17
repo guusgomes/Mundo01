@@ -17,7 +17,7 @@ cores = {'limpa':'\033[m',
          'magenta':'\033[1;35m',
          'ciano':'\033[1;36m'}
 
-print(f'{cores['titulo']}', '=' * 6, 'DESAFIO 11', '=' * 6, f'{cores['limpa']}')
+print(f'{cores['titulo']}', '=' * 6, 'DESAFIO 22', '=' * 6, f'{cores['limpa']}')
 
 nome = str(input('Digite seu nome completo: ')).strip()
 

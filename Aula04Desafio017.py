@@ -5,6 +5,7 @@
 ##print(f'O comprimento da hipotenusa é {hi:.2f}.')
 
 from math import hypot
+
 cores = {'limpa':'\033[m',
          'titulo':'\033[1;31;47m',
          'verde':'\033[1;32m',
@@ -14,7 +15,7 @@ cores = {'limpa':'\033[m',
          'magenta':'\033[1;35m',
          'ciano':'\033[1;36m'}
 
-print(f'{cores['titulo']}', '=' * 6, 'DESAFIO 11', '=' * 6, f'{cores['limpa']}')
+print(f'{cores['titulo']}', '=' * 6, 'DESAFIO 17', '=' * 6, f'{cores['limpa']}')
 
 co = float(input('Comprimento do cateto oposto: '))
 ca = float(input('Comprimento do cateto adjacente: '))

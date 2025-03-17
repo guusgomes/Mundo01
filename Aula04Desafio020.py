@@ -9,7 +9,7 @@ cores = {'limpa':'\033[m',
          'magenta':'\033[1;35m',
          'ciano':'\033[1;36m'}
 
-print(f'{cores['titulo']}', '=' * 6, 'DESAFIO 11', '=' * 6, f'{cores['limpa']}')
+print(f'{cores['titulo']}', '=' * 6, 'DESAFIO 20', '=' * 6, f'{cores['limpa']}')
 
 a1 = input('Nome do aluno: ')
 a2 = input('Nome do aluno: ')

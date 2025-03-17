@@ -1,4 +1,5 @@
 from math import trunc
+
 cores = {'limpa':'\033[m',
          'titulo':'\033[1;31;47m',
          'verde':'\033[1;32m',
@@ -8,7 +9,7 @@ cores = {'limpa':'\033[m',
          'magenta':'\033[1;35m',
          'ciano':'\033[1;36m'}
 
-print(f'{cores['titulo']}', '=' * 6, 'DESAFIO 11', '=' * 6, f'{cores['limpa']}')
+print(f'{cores['titulo']}', '=' * 6, 'DESAFIO 16', '=' * 6, f'{cores['limpa']}')
 
 n = float(input('Digite um número real qualquer: '))
 
